@@ -1,0 +1,28 @@
+/* Giving our navbar some padding and a background color */
+/*.navbar {
+  padding: 10px;
+  background: #5191fd;
+}*/
+
+/*This isn't working.*/
+.navbar-brand {
+  color: #000;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    background-color: #ff0000;
+    /*padding: 20px;*/
+}
+
+
+/*.dropdown {
+  position: relative;
+}*/
+
+.box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: deepskyblue;
+}
