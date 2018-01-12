@@ -24,23 +24,6 @@
           
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <!--
-                <ul class="nav navbar-nav">
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-            -->
-            
                 <ul class="nav navbar-nav navbar-right">
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
@@ -58,26 +41,55 @@
             </div><!-- /.container-fluid -->
           </nav>
 
- 
 
     <div class="container">
         <div class="row">
-            <!--First Column in this Row-->
+            <!--Large Left Box-->
             <div class="col-md-8">
                 <div class="box">
-                <h1>If you want to change an element inside the grid, then add CSS to the element inside the grid. Not the grid itself.</h1>
+                <section id="intro">
+                    <h1>Summary: Latitude vs. X</h1>
+                    <hr>
+                    <figure>
+                                <a target="_blank" href="temp-placeholder.png">
+                                    <img id="temp-sample" src="temp-placeholder.png" alt="Latitude vs. Temperature">
+                                </a>
+                    </figure>
+                    
+                    <p>This module employs Python requests, APIs, and JSON traversals to answer a fundamental question: what weather trends can
+                            we observe as we approach the equator? Using the Citipy library and OpenWeatherMap API, this script creates a representative
+                            model of weather across world cities.
+                    </p>
+                            
+                    <p> The program randomly generates 1500 latitude/longitude pairs and feeds them to the OpenWeatherMapAPI. It performs a
+                            series of successive throttled API calls to extract the weather data in all found cities. It then drops duplicate 
+                            cities, counts the total, and saves the resulting table as a CSV. To showcase the following relationships, it builds a series of scatter plots using Matplotlib:
+                    </p>    
+                    
+                    <ul>
+                            <li>Temperature (F) vs. Latitude</li>
+                            <li>Humidity (%) vs. Latitude</li>
+                            <li>Cloudiness (%) vs. Latitude</li>
+                            <li>Wind Speed (mph) vs. Latitude</li>
+                            
+                    </ul>
+
+                    <p> Finally, in addition to the city data CSV, it returns the scatterplots as png image files.
+                    </p>
+                </section>
                 </div>
             </div>
         
-            <!--Second Column in this Row-->
+            <!--Smaller Right Box-->
             <div class="col-md-4">
                 <div class="box">
-                <h1>Adding CSS directly to the grid will probably break things elsewhere, as that isn't the intended usage.</h1>
+                <h2>Visualizations</h2>
+                <hr>
                 </div>
             </div>
         </div>
     </div>
-    
+
 
 
 

@@ -12,17 +12,53 @@
 .navbar-default .navbar-brand {
     color: #ffffff;
     background-color: #ff0000;
-    /*padding: 20px;*/
+    font-family: "Georgia", Times New Roman, Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+        /*padding: 20px;*/
 }
 
+.navbar-header{
+    width:200px;
+    /*margin-left:8.3333% !important;*/
+    margin-left:75px !important;
+}
+.content{
+    margin-top:100px;
+}
 
 /*.dropdown {
   position: relative;
 }*/
+
+
+h1 {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 28px;
+    font-weight: 600;
+	/*color: #eee;*/
+	/*font-size: 28px;*/
+	/*text-align: center;*/
+	/*padding: 15px;*/
+}
+
+h2 {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 24px;
+    font-weight: 600;
+	/*font-size: 24px;*/
+}
 
 .box {
   height: 400px;
   padding: 20px;
   color: #fff;
   background: deepskyblue;
+}
+
+#temp-sample {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px 20px;
 }
