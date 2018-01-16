@@ -16,6 +16,11 @@
     /*margin-left:8.3333% !important;*/
     margin-left:75px !important;
 }
+
+.navbar-header .navbar-toggle .collapsed {
+  float: right;
+}
+
 .content{
     margin-top:100px;
 }
