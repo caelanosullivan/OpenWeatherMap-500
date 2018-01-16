@@ -5,6 +5,7 @@
 }*/
 
 /*This isn't working.*/
+
 .navbar-brand {
   color: #000;
 }
@@ -19,7 +20,7 @@
 }
 
 .navbar-header{
-    width:200px;
+    width:400px;
     /*margin-left:8.3333% !important;*/
     margin-left:75px !important;
 }
@@ -50,15 +51,48 @@ h2 {
 }
 
 .box {
-  height: 400px;
+  /*height: 700px;*/
   padding: 20px;
   color: #fff;
   background: deepskyblue;
 }
 
+/*Controls paragraph text in summary (left) box on landing page*/
+#summary {
+  font-size: 17px;
+
+}
+
+/*Controls image in summary (left) box on landing page*/
 #temp-sample {
 	float: left;
 	width: 200px;
 	height: 200px;
 	margin: 10px 20px;
+}
+
+#landing-viz {
+  width: 125px;
+  height: 125px;
+  margin: 20px 20px 20px 20px;
+}
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
 }

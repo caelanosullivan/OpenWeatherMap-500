@@ -43,7 +43,7 @@
 
 
     <div class="container">
-        <div class="row">
+        <div class="row row-grid">
             <!--Large Left Box-->
             <div class="col-md-8">
                 <div class="box">
@@ -51,11 +51,12 @@
                     <h1>Summary: Latitude vs. X</h1>
                     <hr>
                     <figure>
-                                <a target="_blank" href="temp-placeholder.png">
-                                    <img id="temp-sample" src="temp-placeholder.png" alt="Latitude vs. Temperature">
+                                <a target="_blank" href="temp-graph.png">
+                                    <img id="temp-sample" src="temp-graph.png" alt="Latitude vs. Temperature">
                                 </a>
                     </figure>
                     
+                    <section id="summary">
                     <p>This module employs Python requests, APIs, and JSON traversals to answer a fundamental question: what weather trends can
                             we observe as we approach the equator? Using the Citipy library and OpenWeatherMap API, this script creates a representative
                             model of weather across world cities.
@@ -76,6 +77,8 @@
 
                     <p> Finally, in addition to the city data CSV, it returns the scatterplots as png image files.
                     </p>
+                    </section>
+
                 </section>
                 </div>
             </div>
@@ -85,11 +88,78 @@
                 <div class="box">
                 <h2>Visualizations</h2>
                 <hr>
+
+      <!--WORKS-->
+                  <!-- <div class="row">
+                      <div class="col-sm-6 col-md-3">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                      <div class="col-sm-6 col-md-3">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                    </div>
                 </div>
+              </div> -->
+
+              <!-- Graphs in smaller right (Visualizations) box -->
+                  <div class="row">
+                      <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a target="_blank" href="temp-graph.png">
+                                    <img id="landing-viz" src="temp-graph.png" alt="Latitude vs. Temperature">
+                                </a>
+                            </figure>
+                        </div>
+                    
+                  <div class="col-xs-6 col-sm-3 col-md-6">
+                          <figure>
+                              <a target="_blank" href="humid-graph.png">
+                                  <img id="landing-viz" src="humid-graph.png" alt="Latitude vs. Temperature">
+                              </a>
+                          </figure>
+                      </div>
+
+                  <div class="col-xs-6 col-sm-3 col-md-6">
+                          <figure>
+                              <a target="_blank" href="cloud-graph.png">
+                                  <img id="landing-viz" src="cloud-graph.png" alt="Latitude vs. Temperature">
+                              </a>
+                          </figure>
+                      </div>
+
+                  <div class="col-xs-6 col-sm-3 col-md-6">
+                          <figure>
+                              <a target="_blank" href="wind-graph.png">
+                                  <img id="landing-viz" src="wind-graph.png" alt="Latitude vs. Temperature">
+                              </a>
+                          </figure>
+                      </div>
+
+
+                        <!-- original -->
+                      <!-- <div class="col-sm-3 col-md-6">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                      <div class="col-sm-3 col-md-6">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div>
+                      <div class="col-sm-3 col-md-6">
+                        <div class="box purple">col-sm-6 col-md-3</div>
+                      </div> -->
+                    </div>
+                </div>
+              </div>
+
+                    <!-- Close up the rest -->
+                  
             </div>
         </div>
-    </div>
-
 
 
 
