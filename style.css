@@ -1,11 +1,3 @@
-/* Giving our navbar some padding and a background color */
-/*.navbar {
-  padding: 10px;
-  background: #5191fd;
-}*/
-
-/*This isn't working.*/
-
 .navbar-brand {
   color: #000;
 }
@@ -52,14 +44,22 @@ h2 {
 
 .box {
   /*height: 700px;*/
-  padding: 20px;
   color: #fff;
   background: deepskyblue;
+}
+
+.box-left {
+  padding: 20px;
+}
+
+.box-right {
+  padding: 30px;
 }
 
 /*Controls paragraph text in summary (left) box on landing page*/
 #summary {
   font-size: 17px;
+  line-height: 1.8em;
 
 }
 
@@ -72,9 +72,11 @@ h2 {
 }
 
 #landing-viz {
-  width: 125px;
-  height: 125px;
-  margin: 20px 20px 20px 20px;
+  /*width: 125px;
+  he*/ight: 125px;
+  width: 100%;
+  height: 100%;
+  margin: 15px 15px 15px 15px;
 }
 
 .row.row-grid [class*="col-"] + [class*="col-"] {
