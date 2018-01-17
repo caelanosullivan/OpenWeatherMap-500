@@ -97,6 +97,10 @@ h3 {
   height: 100%;
 }
 
+.figure:active{
+  border: 5px solid red;
+}
+
 /*Controls large central image on analysis pages */
 #viz-main {
   padding: 25px 40px 30px 40px;
