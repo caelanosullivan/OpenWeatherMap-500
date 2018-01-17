@@ -17,6 +17,8 @@
     margin-left:75px !important;
 }
 
+
+/* This section not working! */
 .navbar-header .navbar-toggle .collapsed {
   float: right;
 }
