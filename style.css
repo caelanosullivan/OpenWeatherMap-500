@@ -99,6 +99,7 @@ h3 {
 }
 
 /*This isn't working yet but we'll look further - Brandon may have suggestions*/
+/*Recommendation is to hardcode box borders; active doesn't persist across pageloads*/
 /*.figure:active{
   border: 5px solid red;
 }*/
